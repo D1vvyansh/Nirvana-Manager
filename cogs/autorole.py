@@ -8,7 +8,7 @@ class AutoroleCog(commands.Cog):
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
-        role_ids = [1080759958787858439, 1080759958787858434, 1266102818826096730, 1080759958787858433] 
+        role_ids = [1317792824581820426, 1317790347182735360] 
         
         roles_to_add = [member.guild.get_role(role_id) for role_id in role_ids]
         roles_to_add = [role for role in roles_to_add if role is not None]
